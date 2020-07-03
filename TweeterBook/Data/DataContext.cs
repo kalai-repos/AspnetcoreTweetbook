@@ -29,5 +29,8 @@ namespace TweeterBook.Data
 
             builder.Entity<EmployeeTag>().Ignore(xx => xx.Employee).HasKey(x => new { x.EmpId, x.TagName });
         }
+
+
+        
     }
 }

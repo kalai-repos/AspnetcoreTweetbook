@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -11,6 +12,7 @@ using TweeterBook.Repository;
 
 namespace TweeterBook.Controllers
 {
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme,Roles = "User")]
     public class TagsController : Controller
     {
        
@@ -25,7 +27,7 @@ namespace TweeterBook.Controllers
 
 
         [HttpGet(ApiRoutes.Tags.GetAll)]
-        [Authorize(Policy = "Tagviewer")]
+        //[Authorize(Policy = "Tagviewer")]
         public async Task<IActionResult> GetAll()
         {
             var tags = await _empRepository.GetAllTagsAsync();
