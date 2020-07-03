@@ -14,6 +14,9 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using System.Text;
 using TweeterBook.Repository;
+using TweeterBook.Authorization;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TweeterBook.Installers
 {
@@ -55,15 +58,22 @@ namespace TweeterBook.Installers
 
             services.AddAuthorization(option =>
             {
-                option.AddPolicy("Tagviewer", builder => builder.RequireClaim("tags.view", "true"));
+                // option.AddPolicy("Tagviewer", builder => builder.RequireClaim("tags.view", "true"));
+
+                 option.AddPolicy("MustworkwithDomain", policy =>
+                 {
+                     policy.AddRequirements(new WorksForCompanyRequirement("@localhost"));
+                 });
 
             });
+
+            services.AddSingleton<IAuthorizationHandler, WorksForCompanyHandler>();
 
             services.AddSwaggerGen(x =>
             {
                 x.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
 
-               
+
                 x.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Description = "JWT Authorization header using the bearer scheme",

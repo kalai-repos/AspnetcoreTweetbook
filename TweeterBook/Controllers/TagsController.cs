@@ -12,7 +12,7 @@ using TweeterBook.Repository;
 
 namespace TweeterBook.Controllers
 {
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme,Roles = "User")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme,Roles = "Admin,User")]
     public class TagsController : Controller
     {
        
@@ -27,7 +27,7 @@ namespace TweeterBook.Controllers
 
 
         [HttpGet(ApiRoutes.Tags.GetAll)]
-        //[Authorize(Policy = "Tagviewer")]
+        [Authorize(Policy = "MustworkwithDomain")]
         public async Task<IActionResult> GetAll()
         {
             var tags = await _empRepository.GetAllTagsAsync();

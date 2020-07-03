@@ -65,17 +65,7 @@ namespace TweeterBook.Repository
             // await _userManager.AddClaimAsync(newUser, new Claim("tags.view", "true"));
 
             return await GenerateAuthenticationResultForUser(newUser);
-        }
-
-
-
-        //public async Task<AuthenticationResult> RefreshTokenAsync(string token, string refreshToken)
-        //{
-        //    return  new AuthenticationResult
-        //    {
-        //        Errors = new[] { "User with this email address already exists" }
-        //    };
-        //}
+        }      
 
         public async Task<AuthenticationResult> LoginAsync(string email, string password)
         {
