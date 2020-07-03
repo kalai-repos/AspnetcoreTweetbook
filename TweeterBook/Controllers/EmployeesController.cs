@@ -48,7 +48,9 @@ namespace TweeterBook.Controllers
 
         }
 
-
+        /// <summary>
+        /// creating the new Employee
+        /// </summary>    
         [HttpPost(ApiRoutes.RequestUri.Create)]
         public async Task<IActionResult> Create([FromBody] CreatePostRequest postRequest)
         {

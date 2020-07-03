@@ -78,6 +78,11 @@ E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp3.1\FluentValidation.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\obj\Debug\netcoreapp3.1\TweeterBook.csproj.CoreCompileInputs.cache
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\obj\Debug\netcoreapp3.1\TweeterBook.MvcApplicationPartsAssemblyInfo.cs
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\obj\Debug\netcoreapp3.1\TweeterBook.MvcApplicationPartsAssemblyInfo.cache
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp3.1\TweeterBook.xml
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\obj\Debug\netcoreapp3.1\TweeterBook.xml

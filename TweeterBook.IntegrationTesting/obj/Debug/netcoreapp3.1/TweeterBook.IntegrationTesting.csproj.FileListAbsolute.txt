@@ -420,3 +420,7 @@ E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\b
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\FluentAssertions.dll
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\obj\Debug\netcoreapp3.1\TweeterBook.IntegrationTesting.csproj.CoreCompileInputs.cache
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\FluentValidation.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\TweeterBook.xml

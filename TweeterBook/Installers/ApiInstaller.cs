@@ -17,6 +17,9 @@ using TweeterBook.Repository;
 using TweeterBook.Authorization;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Mvc;
+using TweeterBook.Filter;
 
 namespace TweeterBook.Installers
 {
@@ -27,6 +30,10 @@ namespace TweeterBook.Installers
             var jwtSettings = new JwtSettings();
             configuration.Bind(nameof(JwtSettings), jwtSettings);
             services.AddSingleton(jwtSettings);
+
+            services.AddMvc(options => { options.EnableEndpointRouting = false; options.Filters.Add<ValidationFilter>(); })
+                .AddFluentValidation(mvcConifg => mvcConifg.RegisterValidatorsFromAssemblyContaining<Startup>())
+                .SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
             services.AddScoped<IIdentityRepository, IdentityRepository>();
 
@@ -67,31 +74,7 @@ namespace TweeterBook.Installers
 
             });
 
-            services.AddSingleton<IAuthorizationHandler, WorksForCompanyHandler>();
-
-            services.AddSwaggerGen(x =>
-            {
-                x.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
-
-
-                x.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-                {
-                    Description = "JWT Authorization header using the bearer scheme",
-                    Name = "Authorization",
-                    In = ParameterLocation.Header,
-                    Type = SecuritySchemeType.ApiKey
-                });
-
-                x.AddSecurityRequirement(new OpenApiSecurityRequirement
-                {
-                    {new OpenApiSecurityScheme{Reference = new OpenApiReference
-                    {
-                        Id = "Bearer",
-                        Type = ReferenceType.SecurityScheme
-                    }}, new List<string>()}
-                });
-
-            });
+            services.AddSingleton<IAuthorizationHandler, WorksForCompanyHandler>();           
 
 
             services.AddSingleton<IUriService>(provider =>

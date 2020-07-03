@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TweeterBook</name>
+    </assembly>
+    <members>
+        <member name="M:TweeterBook.Controllers.EmployeesController.Create(TweeterBook.Contract.CreatePostRequest)">
+            <summary>
+            creating the new Employee
+            </summary>    
+        </member>
+    </members>
+</doc>

@@ -7,7 +7,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TweeterBook.Contract;
+using TweeterBook.Contract.Request;
 using TweeterBook.Contract.Response;
+using TweeterBook.Domain;
+using TweeterBook.Extension;
 using TweeterBook.Repository;
 
 namespace TweeterBook.Controllers
@@ -45,6 +48,34 @@ namespace TweeterBook.Controllers
             }
 
             return Ok(_mapper.Map<TagResponse>(tag));
+        }
+
+        /// <summary>
+        /// Creating the tag
+        /// </summary>
+        /// <response code="201">Creates a tag in the system</response>
+        /// <response code="400">Unable to create the tag due to validation error</response>
+        [HttpPost(ApiRoutes.Tags.Create)]
+        [ProducesResponseType(typeof(TagResponse), 201)]
+        [ProducesResponseType(typeof(ErrorResponse), 400)]
+        public async Task<IActionResult> Create([FromBody] CreateTagRequest request)
+        {
+            var newTag = new Tag
+            {
+                Name = request.TagName,
+                CreatorId = HttpContext.GetUserId(),
+                CreatedOn = DateTime.UtcNow
+            };
+
+            var created = await _empRepository.CreateTagAsync(newTag);
+            if (!created)
+            {
+                return BadRequest(new ErrorResponse(new ErrorModel { Message = "Unable to create tag" }));
+            }
+
+            var baseUrl = $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host.ToUriComponent()}";
+            var locationUri = baseUrl + "/" + ApiRoutes.Tags.Get.Replace("{tagName}", newTag.Name);
+            return Created(locationUri, _mapper.Map<TagResponse>(newTag));
         }
 
 
