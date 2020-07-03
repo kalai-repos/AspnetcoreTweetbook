@@ -81,4 +81,3 @@ E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\obj\Debug\netcoreapp3.1\TweeterBook.csproj.CoreCompileInputs.cache
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\obj\Debug\netcoreapp3.1\TweeterBook.MvcApplicationPartsAssemblyInfo.cs
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\obj\Debug\netcoreapp3.1\TweeterBook.MvcApplicationPartsAssemblyInfo.cache
-E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\obj\Debug\netcoreapp3.1\TweeterBook.csprojAssemblyReference.cache
