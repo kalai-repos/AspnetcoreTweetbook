@@ -6,3 +6,4 @@ E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.Contract\obj\Debug\n
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.Contract\obj\Debug\netstandard2.0\TweeterBook.Contract.dll
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.Contract\obj\Debug\netstandard2.0\TweeterBook.Contract.pdb
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.Contract\obj\Debug\netstandard2.0\TweeterBook.Contract.csproj.CoreCompileInputs.cache
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.Contract\obj\Debug\netstandard2.0\TweeterBook.Contract.csprojAssemblyReference.cache

@@ -98,6 +98,10 @@ E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp3.1\StackExchange.Redis.dll
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\obj\Debug\netcoreapp3.1\TweeterBook.csproj.CoreCompileInputs.cache
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\obj\Debug\netcoreapp3.1\TweeterBook.MvcApplicationPartsAssemblyInfo.cs
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook\obj\Debug\netcoreapp3.1\TweeterBook.MvcApplicationPartsAssemblyInfo.cache

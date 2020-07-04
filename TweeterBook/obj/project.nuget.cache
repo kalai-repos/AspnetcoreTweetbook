@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EhqcAi/GmlDqhT12Z9Sjzxjyjlg9bpgzzwvSmevsdwyS/DzbAvgMvJvMhgyiGbPJQeg+axFv9m9Ndp9Smh8RYg==",
+  "dgSpecHash": "mxpQ7Fe90KgO5Dc6a0RVO+aWjUZu42nbOWH7r4TAZ5oruFCDoZSARLHaGfiZFEEDLvlkOaUlJnjc26VMxFCBNg==",
   "success": true,
   "projectFilePath": "E:\\sampelProject\\Netcore3.1Learning\\TweeterBook\\TweeterBook\\TweeterBook.csproj",
   "expectedPackageFiles": [
@@ -39,8 +39,12 @@
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.5\\microsoft.extensions.dependencyinjection.3.1.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.extensions.dependencymodel\\2.1.0\\microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\3.1.5\\microsoft.extensions.diagnostics.healthchecks.3.1.5.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\3.1.5\\microsoft.extensions.diagnostics.healthchecks.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.entityframeworkcore\\3.1.5\\microsoft.extensions.diagnostics.healthchecks.entityframeworkcore.3.1.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.5\\microsoft.extensions.fileproviders.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\3.1.5\\microsoft.extensions.fileproviders.embedded.3.1.5.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.5\\microsoft.extensions.hosting.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.identity.core\\3.1.5\\microsoft.extensions.identity.core.3.1.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.5\\microsoft.extensions.identity.stores.3.1.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging\\3.1.5\\microsoft.extensions.logging.3.1.5.nupkg.sha512",

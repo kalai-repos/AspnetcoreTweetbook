@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uebCk9SXW/qT13IDNQEnww+MLNqF/MgJ9dmd4+2WSKHf0lEEJntw2JwhjHx/yDusyysiVe5t4viCbP+5K54vtw==",
+  "dgSpecHash": "tgQgia7GRlRuEAT8iLcd9XDcxLMBpsp8GMD/T40Eeh+uWM4qNkthIZDiH+AB6SawtTzolKrDLTSM4fUJyqzUTg==",
   "success": true,
   "projectFilePath": "E:\\sampelProject\\Netcore3.1Learning\\TweeterBook\\TweeterBook.IntegrationTesting\\TweeterBook.IntegrationTesting.csproj",
   "expectedPackageFiles": [
@@ -48,6 +48,9 @@
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.5\\microsoft.extensions.dependencyinjection.3.1.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.1.5\\microsoft.extensions.dependencymodel.3.1.5.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\3.1.5\\microsoft.extensions.diagnostics.healthchecks.3.1.5.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\3.1.5\\microsoft.extensions.diagnostics.healthchecks.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.entityframeworkcore\\3.1.5\\microsoft.extensions.diagnostics.healthchecks.entityframeworkcore.3.1.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.5\\microsoft.extensions.fileproviders.abstractions.3.1.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\3.1.5\\microsoft.extensions.fileproviders.embedded.3.1.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.5\\microsoft.extensions.fileproviders.physical.3.1.5.nupkg.sha512",
