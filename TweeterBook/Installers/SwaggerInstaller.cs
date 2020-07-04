@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.Filters;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -17,6 +18,8 @@ namespace TweeterBook.Installers
             services.AddSwaggerGen(x =>
             {
                 x.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+
+                x.ExampleFilters(); //show the document in the swagger ui
 
                 x.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
@@ -40,6 +43,8 @@ namespace TweeterBook.Installers
                 x.IncludeXmlComments(xmlPath);
 
             });
+
+            services.AddSwaggerExamplesFromAssemblyOf<Startup>();
         }
     }
 }

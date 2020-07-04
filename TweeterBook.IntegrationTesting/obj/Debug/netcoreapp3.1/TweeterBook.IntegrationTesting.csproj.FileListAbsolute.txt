@@ -424,3 +424,10 @@ E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\b
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\TweeterBook.xml
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\Scrutor.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Filters.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\TweeterBook.Contract.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.IntegrationTesting\bin\Debug\netcoreapp3.1\TweeterBook.Contract.pdb

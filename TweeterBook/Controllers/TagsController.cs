@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TweeterBook.Caching;
 using TweeterBook.Contract;
 using TweeterBook.Contract.Request;
 using TweeterBook.Contract.Response;
@@ -16,6 +17,7 @@ using TweeterBook.Repository;
 namespace TweeterBook.Controllers
 {
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme,Roles = "Admin,User")]
+    [Produces("application/json")]
     public class TagsController : Controller
     {
        
@@ -28,7 +30,7 @@ namespace TweeterBook.Controllers
             this._empRepository = empRepository;
         }
 
-
+        [Cached(300)]
         [HttpGet(ApiRoutes.Tags.GetAll)]
         [Authorize(Policy = "MustworkwithDomain")]
         public async Task<IActionResult> GetAll()

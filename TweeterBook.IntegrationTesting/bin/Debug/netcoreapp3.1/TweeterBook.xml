@@ -9,5 +9,12 @@
             creating the new Employee
             </summary>    
         </member>
+        <member name="M:TweeterBook.Controllers.TagsController.Create(TweeterBook.Contract.Request.CreateTagRequest)">
+            <summary>
+            Creating the tag
+            </summary>
+            <response code="201">Creates a tag in the system</response>
+            <response code="400">Unable to create the tag due to validation error</response>
+        </member>
     </members>
 </doc>

@@ -1,11 +1,8 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc.Testing;
+﻿using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using System;
-using System.Collections.Generic;
 using System.Net.Http;
-using System.Text;
 using TweeterBook.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
@@ -33,7 +30,7 @@ namespace TweeterBook.IntegrationTesting
                 });
 
             _serviceProvider = appfactory.Services;
-            testClient = appfactory.CreateClient();
+            testClient = appfactory.CreateClient(); 
         }
 
 

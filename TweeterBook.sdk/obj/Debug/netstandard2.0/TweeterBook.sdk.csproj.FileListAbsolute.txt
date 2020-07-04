@@ -1,0 +1,13 @@
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.sdk\bin\Debug\netstandard2.0\TweeterBook.sdk.deps.json
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.sdk\bin\Debug\netstandard2.0\TweeterBook.sdk.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.sdk\bin\Debug\netstandard2.0\TweeterBook.sdk.pdb
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.sdk\obj\Debug\netstandard2.0\TweeterBook.sdk.csprojAssemblyReference.cache
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.sdk\obj\Debug\netstandard2.0\TweeterBook.sdk.AssemblyInfoInputs.cache
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.sdk\obj\Debug\netstandard2.0\TweeterBook.sdk.AssemblyInfo.cs
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.sdk\obj\Debug\netstandard2.0\TweeterBook.sdk.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.sdk\obj\Debug\netstandard2.0\TweeterBook.sdk.pdb
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.sdk\bin\Debug\netstandard2.0\TweeterBook.Contract.dll
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.sdk\bin\Debug\netstandard2.0\TweeterBook.Contract.pdb
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.sdk\obj\Debug\netstandard2.0\TweeterBook.sdk.csproj.CopyComplete
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.sdk\obj\Debug\netstandard2.0\RefitStubs.g.cs
+E:\sampelProject\Netcore3.1Learning\TweeterBook\TweeterBook.sdk\obj\Debug\netstandard2.0\TweeterBook.sdk.csproj.CoreCompileInputs.cache

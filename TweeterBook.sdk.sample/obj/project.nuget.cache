@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BQD301XYaPj9Fg79uU0RzsCIdJsifjUOI65TXusErtyGQTp1/S8cGLr486jr4Z/CLBVz9zJ4eywePzZ96zSBFg==",
+  "success": true,
+  "projectFilePath": "E:\\sampelProject\\Netcore3.1Learning\\TweeterBook\\TweeterBook.sdk.sample\\TweeterBook.sdk.sample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\refit\\5.1.67\\refit.5.1.67.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

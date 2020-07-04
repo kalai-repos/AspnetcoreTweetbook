@@ -281,7 +281,7 @@
       },
       "AutoMapper/9.0.0": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.6.0",
           "System.Reflection.Emit": "4.3.0"
         },
         "runtime": {
@@ -371,7 +371,7 @@
       "Microsoft.AspNet.WebApi.Client/5.2.7": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
-          "Newtonsoft.Json.Bson": "1.0.1"
+          "Newtonsoft.Json.Bson": "1.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/System.Net.Http.Formatting.dll": {
@@ -477,6 +477,37 @@
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.dll": {}
         }
       },
+      "Microsoft.AspNetCore.JsonPatch/3.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.6.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.46502"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/3.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.JsonPatch": "3.0.0",
+          "Newtonsoft.Json": "12.0.2",
+          "Newtonsoft.Json.Bson": "1.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.46502"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Mvc.Testing/3.1.5": {
         "dependencies": {
           "Microsoft.AspNetCore.TestHost": "3.1.5",
@@ -540,7 +571,7 @@
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
         }
       },
-      "Microsoft.CSharp/4.5.0": {},
+      "Microsoft.CSharp/4.6.0": {},
       "Microsoft.Data.SqlClient/1.0.19269.1": {
         "dependencies": {
           "Microsoft.Identity.Client": "3.0.8",
@@ -1113,7 +1144,7 @@
       },
       "Microsoft.Identity.Client/3.0.8": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.6.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
           "System.Net.NameResolution": "4.3.0",
           "System.Runtime.Serialization.Formatters": "4.3.0",
@@ -1210,11 +1241,11 @@
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "Microsoft.OpenApi/1.1.4": {
+      "Microsoft.OpenApi/1.2.2": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "assemblyVersion": "1.1.4.0",
-            "fileVersion": "1.1.4.0"
+            "assemblyVersion": "1.2.2.0",
+            "fileVersion": "1.2.2.0"
           }
         },
         "compile": {
@@ -1561,19 +1592,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Newtonsoft.Json.Bson/1.0.1": {
+      "Newtonsoft.Json.Bson/1.0.2": {
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
           "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
-          "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.1.20722"
+            "fileVersion": "1.0.2.22727"
           }
         },
         "compile": {
-          "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -1658,6 +1688,21 @@
           }
         }
       },
+      "Scrutor/3.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.5",
+          "Microsoft.Extensions.DependencyModel": "3.1.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Scrutor.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Scrutor.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/5.4.1": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
@@ -1666,9 +1711,42 @@
           "Swashbuckle.AspNetCore.SwaggerUI": "5.4.1"
         }
       },
+      "Swashbuckle.AspNetCore.Annotations/5.0.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.SwaggerGen": "5.4.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.Filters/5.1.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.0.0",
+          "Microsoft.Extensions.DependencyInjection": "3.1.5",
+          "Microsoft.OpenApi": "1.2.2",
+          "Scrutor": "3.0.1",
+          "Swashbuckle.AspNetCore": "5.4.1",
+          "Swashbuckle.AspNetCore.Annotations": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Filters.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Filters.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore.Swagger/5.4.1": {
         "dependencies": {
-          "Microsoft.OpenApi": "1.1.4"
+          "Microsoft.OpenApi": "1.2.2"
         },
         "runtime": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {
@@ -2786,13 +2864,26 @@
           "Microsoft.AspNetCore.Identity.UI": "3.1.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
-          "Swashbuckle.AspNetCore": "5.4.1"
+          "Swashbuckle.AspNetCore": "5.4.1",
+          "Swashbuckle.AspNetCore.Filters": "5.1.2",
+          "TweeterBook.Contract": "1.0.0"
         },
         "runtime": {
           "TweeterBook.dll": {}
         },
         "compile": {
           "TweeterBook.dll": {}
+        }
+      },
+      "TweeterBook.Contract/1.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
+        "runtime": {
+          "TweeterBook.Contract.dll": {}
+        },
+        "compile": {
+          "TweeterBook.Contract.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4329,6 +4420,20 @@
       "path": "microsoft.aspnetcore.identity.ui/3.1.4",
       "hashPath": "microsoft.aspnetcore.identity.ui.3.1.4.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.JsonPatch/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LQVXEPxV4jIUiVHHUgBzZxOePSdD7wxV1ndtjg1a76JMqoK3siFka2pVfJXwRq0G4hxbYVWxvamqO733wUhQiA==",
+      "path": "microsoft.aspnetcore.jsonpatch/3.0.0",
+      "hashPath": "microsoft.aspnetcore.jsonpatch.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-euuKDPev8bb87dzyyDd252jxafKkCNCU0Yh1ujLq7DT7g4sUwUsq1bVnow9isaYFFx+DBWSywUcL8ngSra0QHg==",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/3.0.0",
+      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.3.0.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Mvc.Testing/3.1.5": {
       "type": "package",
       "serviceable": true,
@@ -4364,12 +4469,12 @@
       "path": "microsoft.codecoverage/15.9.0",
       "hashPath": "microsoft.codecoverage.15.9.0.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.5.0": {
+    "Microsoft.CSharp/4.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
-      "path": "microsoft.csharp/4.5.0",
-      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+      "sha512": "sha512-kxn3M2rnAGy5N5DgcIwcE8QTePWU/XiYcQVzn9HqTls2NKluVzVSmVWRjK7OUPWbljCXuZxHyhEz9kPRIQeXow==",
+      "path": "microsoft.csharp/4.6.0",
+      "hashPath": "microsoft.csharp.4.6.0.nupkg.sha512"
     },
     "Microsoft.Data.SqlClient/1.0.19269.1": {
       "type": "package",
@@ -4707,12 +4812,12 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
-    "Microsoft.OpenApi/1.1.4": {
+    "Microsoft.OpenApi/1.2.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6SW0tpbJslc8LAY1XniRfLVcJa7bJUbbwvo2/ZRqfkMbJrsqIj9045vg3STtZhDhYRKhpYgjqGU11eeW4Pzyrg==",
-      "path": "microsoft.openapi/1.1.4",
-      "hashPath": "microsoft.openapi.1.1.4.nupkg.sha512"
+      "sha512": "sha512-+diTWkzj9OSDKhZj56sUKu0F4N4yAu5j1pRSn3/2D8sD2gQcUyEncbDbqhe6SfRlZut2QytyH8zoaexrd1fKYw==",
+      "path": "microsoft.openapi/1.2.2",
+      "hashPath": "microsoft.openapi.1.2.2.nupkg.sha512"
     },
     "Microsoft.TestPlatform.ObjectModel/15.9.0": {
       "type": "package",
@@ -4763,12 +4868,12 @@
       "path": "newtonsoft.json/12.0.2",
       "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
     },
-    "Newtonsoft.Json.Bson/1.0.1": {
+    "Newtonsoft.Json.Bson/1.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5PYT/IqQ+UK31AmZiSS102R6EsTo+LGTSI8bp7WAUqDKaF4wHXD8U9u4WxTI1vc64tYi++8p3dk3WWNqPFgldw==",
-      "path": "newtonsoft.json.bson/1.0.1",
-      "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
+      "sha512": "sha512-QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
+      "path": "newtonsoft.json.bson/1.0.2",
+      "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
@@ -4910,12 +5015,33 @@
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
     },
+    "Scrutor/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-biheXROWXbciLzPOg/PttVH4w4Q8ADx89bQP8eKiGf1IJj0EOLYRjoctsMGQzi4mB+e4ICMqFeA8Spr0NKN4ZA==",
+      "path": "scrutor/3.0.1",
+      "hashPath": "scrutor.3.0.1.nupkg.sha512"
+    },
     "Swashbuckle.AspNetCore/5.4.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-5EA++Cg8nzw1GCOM+7gWqrXJtylH8XMu+ixkFrbRIhRSMiZLzVPCFnSgAvJn+hCyi+AipUoJbBYv1BjvugieSw==",
       "path": "swashbuckle.aspnetcore/5.4.1",
       "hashPath": "swashbuckle.aspnetcore.5.4.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrCFKfQNFFEdCdbsMiuZK2NDYlIR1Osik46XK4X3rJlDKngdMrGenUb2ax7JWO5wEr77OGPEMidQ39fgCyTaDQ==",
+      "path": "swashbuckle.aspnetcore.annotations/5.0.0",
+      "hashPath": "swashbuckle.aspnetcore.annotations.5.0.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Filters/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vX/+vjx4VvWnrndA8xvryHNQvkbPtaOXaApqTlROR5ZaJTcGu3QQPu+gBIcMmP7FR4TpZuV1kAZ+Dfqn550xbg==",
+      "path": "swashbuckle.aspnetcore.filters/5.1.2",
+      "hashPath": "swashbuckle.aspnetcore.filters.5.1.2.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.Swagger/5.4.1": {
       "type": "package",
@@ -5625,6 +5751,11 @@
       "hashPath": "xunit.runner.visualstudio.2.4.2.nupkg.sha512"
     },
     "TweeterBook/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TweeterBook.Contract/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
